@@ -1,0 +1,35 @@
+@import "./styleSheets/navbar.css";
+@import "./styleSheets/imageCarousel.css";
+@import "./styleSheets/programs/programs.css";
+@import "./styleSheets/programs/filter.css";
+@import "./styleSheets/programs/sort.css";
+@import "./styleSheets/programs/tablet/filterSortTabletMode";
+@import "./styleSheets/programs/tablet/sortTabletMode.css";
+@import "./styleSheets/programs/tablet/filterTabletMode.css";
+@import "./styleSheets/programs/tablet/filterDropdown.css";
+@import "./styleSheets/programs/programCardDeck.css";
+@import "./styleSheets/programs/card.css";
+@import "./styleSheets/footer/footer.css";
+@import "./styleSheets/footer/footerNavBar.css";
+@import "./styleSheets/footer/privacy.css";
+@import "./styleSheets/footer/media.css";
+@import "./styleSheets/imageLink.css";
+@import "./styleSheets/footer/dropdownComponent.css";
+@import "./styleSheets/footer/additionalInfo.css";
+@import "./styleSheets/button.css";
+
+body {
+    font-family: Lato, sans-serif;
+    background-color: #f7f8fa;
+    position: relative;
+    height:100%;
+}
+
+.hide-scroll {
+    overflow-y: hidden;
+}
+.emptyPage, .pageNotFound{
+    height: 200px;
+    color: red;
+    text-align: center;
+}
